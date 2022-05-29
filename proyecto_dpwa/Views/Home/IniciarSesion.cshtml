@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "IniciarSesion";
+}
+
+<main class="my-5">
+    <div class="container">
+      <div class="row">
+        <!-- Formulario inicio sesion -->
+        <div class="col-md-6">
+          <h4 class="mb-3 pb-3 border-bottom">Iniciar sesion</h4>
+          <p class="text-muted">Bienvenido, entra a tu cuenta</p>
+          <form class="mt-5">
+            <div class="mb-4">
+              <label for="inicio_email" class="form-label">Correo electronico</label>
+              <input type="email" class="form-control" id="inicio_email" aria-describedby="emailHelp" placeholder="sgalan@gmail.com" required>
+            </div>
+            <div class="mb-4">
+              <label for="inicio_pass" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="inicio_pass" required>
+            </div>
+            <p class="mt-5 mb-3 small text-end">
+                @Html.ActionLink("¿Olvidaste tú contraseña?", "RecuperarContra", "Home", new { @class = "text-decoration-none" })
+            </p>
+            <button type="submit" class="btn btn-outline-secondary btn-sm txt:uppercase">Iniciar sesion</button>
+          </form>
+        </div>
+
+        <!-- Formulario registro -->
+        <div class="col-md-6">
+          <h4 class="mb-3 pb-3 border-bottom">Crear una cuenta nueva</h4>
+          <p class="text-muted">Create tu cuenta con tu usuario, correo electrónico y contraseña.</p>
+          <form class="mt-5">
+            <div class="mb-4">
+              <label for="registro_user" class="form-label">Usuario</label>
+              <input type="text" class="form-control" id="registro_user" aria-describedby="emailHelp" required>
+            </div>
+            <div class="mb-4">
+              <label for="registro_email" class="form-label">Correo electronico</label>
+              <input type="email" class="form-control" id="registro_email" placeholder="sgalan@gmail.com"  required>
+            </div>
+            <div class="mb-4">
+              <label for="registro_pass" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="registro_pass" required>
+            </div>
+            <div class="mb-4">
+              <label for="registro_confirmar_pass" class="form-label">Confirmar contraseña</label>
+              <input type="password" class="form-control" id="registro_confirmar_pass" required>
+            </div>
+            <button type="submit" class="btn btn-outline-secondary btn-sm txt:uppercase">Registrarme</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+

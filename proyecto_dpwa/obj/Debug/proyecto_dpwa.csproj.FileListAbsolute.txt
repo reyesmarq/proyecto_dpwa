@@ -77,3 +77,9 @@ C:\Users\MauricioReyes\source\repos\proyecto_dpwa\proyecto_dpwa\obj\Debug\proyec
 C:\Users\MauricioReyes\source\repos\proyecto_dpwa\proyecto_dpwa\obj\Debug\proyecto_dpwa.csproj.CopyComplete
 C:\Users\MauricioReyes\source\repos\proyecto_dpwa\proyecto_dpwa\obj\Debug\proyecto_dpwa.dll
 C:\Users\MauricioReyes\source\repos\proyecto_dpwa\proyecto_dpwa\obj\Debug\proyecto_dpwa.pdb
+C:\Users\MauricioReyes\source\repos\proyecto_dpwa\proyecto_dpwa\bin\System.Net.Http.Formatting.dll
+C:\Users\MauricioReyes\source\repos\proyecto_dpwa\proyecto_dpwa\bin\System.Web.Http.dll
+C:\Users\MauricioReyes\source\repos\proyecto_dpwa\proyecto_dpwa\bin\System.Web.Http.WebHost.dll
+C:\Users\MauricioReyes\source\repos\proyecto_dpwa\proyecto_dpwa\bin\System.Net.Http.Formatting.xml
+C:\Users\MauricioReyes\source\repos\proyecto_dpwa\proyecto_dpwa\bin\System.Web.Http.xml
+C:\Users\MauricioReyes\source\repos\proyecto_dpwa\proyecto_dpwa\bin\System.Web.Http.WebHost.xml

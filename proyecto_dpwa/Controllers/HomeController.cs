@@ -13,17 +13,28 @@ namespace proyecto_dpwa.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Nosotros()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Contacto()
         {
-            ViewBag.Message = "Your contact page.";
+            return View();
+        }
 
+        public ActionResult IniciarSesion()
+        {
+            return View();
+        }
+
+        public ActionResult RecuperarContra()
+        {
+            return View();
+        }
+
+        public ActionResult Carrito()
+        {
             return View();
         }
     }
